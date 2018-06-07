@@ -1,23 +1,84 @@
-.jumbotron {
-	background-color: #428bca
-}
-
-.jumbotron h1 {
-	color:white;
-}
-
-p, h1, h4 {
-	font-family: 'Roboto Slab', serif;
-}
-
-#funText {
-	color: black;
+body {
+	background-color: rgb(141, 139, 139);
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 24px;
-	font-family: 'Roboto Slab', serif;
+	color: rgb(141, 139, 139);
+	
 }
 
-#box {
-	height: 100px;
-	width: 100px;
-	margin:auto;
+.container {
+	width: 800px;
+	margin: auto;
+}
+  
+.box {
+	background-color: lightgrey;
+	padding: 30px;
+	text-align: center;
+	margin-bottom: 5px
+}
+
+.section {
+	background-color: lightgrey;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	float: left;
+	width: 370px;
+	height: 300px;
+	margin-top: 10px
+	
+}
+
+.aside {
+	background-color: lightgrey;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	float: right;
+	width: 370px;
+	height: 300px;
+	margin-top: 10px
+}
+
+.article {
+	padding: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+	float: left;
+	width: 80%;
+	background-color: rgb(141, 139, 139);
+	color: lightgray;
+	position: relative;
+}
+
+.hdrs {
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	float: left;
+	color: rgb(141, 139, 139);
+	background-color:lightgray;
+	width: 93%;
+	
+}
+
+.ps {
+	padding: 10px;
+	color: rgb(141, 139, 139);
+	text-align: center;
+	margin-bottom: 10px;
+	float: left;
+	background-color:lightgray;
+	width: 93%;
+	}
+
+
+
+.footer {
+	background-color: lightgrey;
+	padding: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+	clear: both;
 }
